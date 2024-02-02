@@ -9,7 +9,7 @@ app.use(cors())
 
 app.get('/', (req, res) => {
 
-  res.send(" you go to the categories through the categories router.");
+  res.send(" you go to the categories through the categories router. Now do whataver you do.");
 
 })
 app.get('/categories', (req, res) => {
